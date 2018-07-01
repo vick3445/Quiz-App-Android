@@ -1,12 +1,10 @@
-# QuizApp2
+Final-Quiz-App-Udacity
 
-An educative android app to test your knowledge about current affairs
+This is a simple quiz app created in completion of the ALC 7 days of code challenge
 
-# How to use the app
+#HOW TO USE THE APP
 
-Enter your name
-- Answer all questions
-- Some questions have more than one answer which carries more marks.
-- Questions that needs to be typed carries the most mark(5 marks).
-# Where to dowload APK
-- You can download the apk file [here](https://drive.google.com/open?id=1JzdoF4uVOJyi1GjjPv9cT4d94DM3LUpk).
+	-Fill in the username as prompted on the home page
+	-Choose a track, either android ar java
+	-Answer all the questions
+	-hit the submit button and your score will be displayed.
