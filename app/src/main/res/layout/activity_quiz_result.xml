@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizResult">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/quiz">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/score"
+                android:textColor="@color/yellow_orange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Hello User, Here is your score"
+                android:textSize="20sp" />
+
+            <TextView
+
+                android:textColor="@color/colorAccent"
+                android:id="@+id/quiz_result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:textSize="80sp" />
+
+            <Button
+                android:id="@+id/btnretry"
+                android:textColor="@color/yellow_orange"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="56dp"
+                android:background="@drawable/button"
+                android:text="Take Another Quiz" />
+
+            <Button
+                android:onClick="showAnswers"
+                android:textColor="@color/yellow_orange"
+                android:layout_width="200dp"
+                android:layout_gravity="center"
+                android:text="show answers"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:onClick="emailResult"
+                android:id="@+id/emailbtn"
+                android:textColor="@color/yellow_orange"
+                android:layout_width="200dp"
+                android:layout_gravity="center"
+                android:text="Email Results"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</ScrollView>

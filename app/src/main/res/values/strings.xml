@@ -1,0 +1,169 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Quiz App</string>
+    <string name="please_pick_a_track_ffor_the_questions">Please pick a track to continue</string>
+
+    <!--JAVA SECTION -->
+    <!--Question 1-->
+    <string name="javaquestion1">1.What is Polymorphism?</string>
+    <string name="jquestion1_option1">A java class</string>
+    <string name="javaquestion1_option2">It is Inheritance</string>
+    <string name="javaquestion1_option3">Having the same code but using it in different forms</string>
+    <string name="javaquestion1_option4">Extending a base class</string>
+
+    <!--Question 2-->
+    <string name="javaquestion2">2.What is a class in java?</string>
+    <string name="javaquestion2_option1">An object of the base class</string>
+    <string name="javaquestion2_option2">A data type</string>
+    <string name="javaquestion2_option3">A blueprint of an object</string>
+    <string name="javaquestion2_option4">None of the above</string>
+
+    <!--Question 3-->
+    <string name="javaquestion3">3.Can we have two public classes in one java file?</string>
+    <string name="javaquestion3_option1">Yes</string>
+    <string name="javaquestion3_option2">Sure</string>
+    <string name="javaquestion3_option3">No</string>
+    <string name="javaquestion3_option4">All of the above</string>
+
+    <!--Question 4-->
+    <string name="javaquestion4">4.What is the default value of double variable?</string>
+    <string name="javaquestion4_option1">0</string>
+    <string name="javaquestion4_option2">0.0f</string>
+    <string name="javaquestion4_option3">0.0d</string>
+    <string name="javaquestion4_option4">0.0</string>
+
+    <!--Question 5-->
+    <string name="javaquestion5">5. Which of the following is true about super class?</string>
+    <string name="javaquestion5_option1">Variables declared as private can only be accessed by members of the superclass</string>
+    <string name="javaquestion5_option2">A superclass is only used in Java</string>
+    <string name="javaquestion5_option3">Variables declared as protected on the superclass can be accessed by any subclass of the superclass</string>
+    <string name="javaquestion5_option4">It causes lagging of the UI</string>
+
+    <!--Question 6-->
+    <string name="javaquestion6">6.What is instance variable?</string>
+    <string name="javaquestion6_option1">They are variables within a class but outside any method</string>
+    <string name="javaquestion6_option2">Variables which are defined inside methods constructors or blocks</string>
+    <string name="javaquestion6_option3">They are static variables within a class but outside any method</string>
+    <string name="javaquestion6_option4">None of the above</string>
+
+    <!--Question 7-->
+    <string name="javaquestion7">7.What is static block?</string>
+    <string name="javaquestion7_option1">It is used to initialize the static data member,it is executed before the main method at the time of class loading</string>
+    <string name="javaquestion7_option2">There is\'nt such a block </string>
+    <string name="javaquestion7_option3">It is used to synchronise code</string>
+    <string name="javaquestion7_option4">None of the above</string>
+
+    <!--Question 8-->
+    <string name="javaquestion8">8. Static binding uses which information for binding?</string>
+    <string name="javaquestion8_option1">Object</string>
+    <string name="javaquestion8_option2">Type</string>
+    <string name="javaquestion8_option3">none</string>
+    <string name="javaquestion8_option4">all</string>
+
+    <!--Question 9-->
+    <string name="javaquestion9">9.What happens when thread\'s sleep() method is called?</string>
+    <string name="javaquestion9_option1">The thread returns its ready state</string>
+    <string name="javaquestion9_option2">The thread starts running</string>
+    <string name="javaquestion9_option3">The thread returns to the waiting state</string>
+    <string name="javaquestion9_option4">The thread is terminated</string>
+    <string name="javaquestion9_option5">None of the above</string>
+
+    <string name="javanumberTen">10.</string>
+
+
+    <!--Question 10-->
+    <string name="javaquestion10">10.Which is the parent of Error and Exception classes</string>
+
+
+    <!--ANDROID SECTION-->
+
+    <!--Question 1-->
+    <string name="question1">1.What is an Implicit Intent?</string>
+    <string name="question1_option1">An activity</string>
+    <string name="question1_option2">An intent linking to the same page</string>
+    <string name="question1_option3">An intent linking to a separate page</string>
+    <string name="question1_option4">None of the above</string>
+
+    <!--Question 2-->
+    <string name="question2">2.What is an Explicit Intent?</string>
+    <string name="question2_option1">A new intent</string>
+    <string name="question2_option2">A intent which has been terminated</string>
+    <string name="question2_option3">An intent that does not specify the components to be called </string>
+    <string name="question2_option4">An abstract method</string>
+
+    <!--Question 3-->
+    <string name="question3">3.What is the function of the gradle?</string>
+    <string name="question3_option1">An integrated development environment</string>
+    <string name="question3_option2">Its a networking library</string>
+    <string name="question3_option3">Its a dependency management and module organisation tool</string>
+    <string name="question3_option4">All of the above</string>
+    <!--Question 4-->
+    <string name="question4">4.Which database does android use?</string>
+    <string name="question4_option1">Oracle</string>
+    <string name="question4_option2">MySQL</string>
+    <string name="question4_option3">SQLite</string>
+    <string name="question4_option4">Mongodb</string>
+
+    <!--Question 5-->
+    <string name="question5">5. How can i persist data in android?</string>
+    <string name="question5_option1">By storing data in SQLite</string>
+    <string name="question5_option2">By using inheritance</string>
+    <string name="question5_option3">By using shared preferences</string>
+    <string name="question5_option4">By using Firebase</string>
+
+    <!--Question 6-->
+    <string name="question6">6.What is a content provider?</string>
+    <string name="question6_option1">A manager for a central repository</string>
+    <string name="question6_option2">An android layout</string>
+    <string name="question6_option3">A view group</string>
+    <string name="question6_option4">none of the above</string>
+
+    <!--Question 7-->
+    <string name="question7">7. What is AsyncTask in android?</string>
+    <string name="question7_option1">An abstract class to help apps manage the main thread</string>
+    <string name="question7_option2">A button layout</string>
+    <string name="question7_option3">A java type</string>
+    <string name="question7_option4">None of the above</string>
+
+    <!--Question 8-->
+    <string name="question8">8. What is a view in android?</string>
+    <string name="question8_option1">Basic building block of the UI</string>
+    <string name="question8_option2">A view that contain another view</string>
+    <string name="question8_option3">An android widget</string>
+    <string name="question8_option4">All the above</string>
+
+    <!--Question 9-->
+    <string name="question9">9. Which is not a layout in android?</string>
+    <string name="question9_option1">Top layout</string>
+    <string name="question9_option2">Frame layout</string>
+    <string name="question9_option3">Boxed layout</string>
+    <string name="question9_option4">Linear layout</string>
+    <string name="question9_option5">Relative layout</string>
+
+    <string name="numberTen">10.</string>
+
+
+    <!--Question 10-->
+    <string name="question10">10. An object that provides runtime binding between separate
+        components, such as two activities is called.</string>
+    <!--EditText Hint-->
+    <string name="hint">Enter Answer</string>
+
+    <string name="submit">Submit</string>
+
+    <string name="reset">Reset</string>
+
+    <string name="email">Email Result</string>
+
+
+    <string name="quiz">quizApp</string>
+    <string name="name">Enter your name</string>
+    <string name="username">Welcome <xliff:g example="User" id="username">%s</xliff:g></string>
+    <string name="score">Score:  <xliff:g example="Score" id="score">%d</xliff:g> out of 20.</string>
+
+    <!--Answer for question 8-->
+    <string name="answer8">pacific</string>
+
+    <!--Answer for question 10-->
+    <string name="answer10">intent</string>
+
+</resources>
